@@ -1,0 +1,117 @@
+.employee-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.employee-card{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #1a1a1a;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    text-align: left;
+    background: #111;
+}
+
+.employee-card:nth-last-of-type(odd){
+    background: #1c212680;
+}
+.employee-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.detail-box{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #1a1a1a;
+    margin-top: 5px;
+}
+
+.employee-details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.employee-details-rev{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    align-self:flex-end;
+    gap: 15px;
+}
+  
+.btn-abs {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    margin-right: 10px;
+}
+
+.pay-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #282828;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-bottom-wrapper{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.success{
+    background: #28a74510;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: #28a745;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.warning {
+    background: #dc354510;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: #dc3545;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.payroll-main-frame{
+    padding: 20px;
+    background: #1c2126;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payroll-title {
+    font-weight: 700;
+    font-size: 2em;
+}
+.no-milestones{
+    color: #ffffff;
+    font-size: smaller;
+    background: #1c2126;
+    /* background:rgba(24, 102, 243, 0.1); */
+    padding: 10px;
+    font-weight: 600;
+    text-align: left;
+}
